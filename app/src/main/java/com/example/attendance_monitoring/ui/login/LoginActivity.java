@@ -128,7 +128,7 @@ public class LoginActivity extends AppCompatActivity {
         //invoke the SecondActivity.
         // TODO : initiate successful logged in experience
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
-        Intent i=new Intent(LoginActivity.this,WelcomeAdminActivity.class);
+        Intent i=new Intent(LoginActivity.this,WelcomeActivity.class);
         //Intent is used to switch from one activity to another.
 
         startActivity(i);

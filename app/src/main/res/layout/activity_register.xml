@@ -76,7 +76,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:text="Date of Birth"></TextView>
+        android:text="Date of Birth">
+        </TextView>
     <EditText
         android:id="@+id/user_dob"
         android:layout_width="match_parent"

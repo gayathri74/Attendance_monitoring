@@ -14,23 +14,24 @@
     <string-array name="select_view">
         <item name="itm_entry">Admin</item>
         <item name="itm_entry">Teacher</item>
-        <item name="itm_entry">Parent</item>
+
 
 
     </string-array>
     <string name="title_activity_welcome">WelcomeActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Welcome Admin! </string>
+    <string name="nav_header_subtitle"></string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
+    <string name="menu_home">Add Staff</string>
+    <string name="menu_gallery">View Attendance</string>
+    <string name="menu_slideshow">Get Report</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="menu_logout">Log out</string>
+
 
 </resources>

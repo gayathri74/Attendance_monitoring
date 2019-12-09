@@ -7,84 +7,100 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="Name"></TextView>
     <EditText
         android:id="@+id/staff_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:height="35dp"></EditText>
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="Email"></TextView>
     <EditText
         android:id="@+id/staff_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
+        android:layout_marginStart="10dp"
         android:height="35dp"></EditText>
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="Password"></TextView>
     <EditText
         android:id="@+id/staff_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:inputType="textPassword"
         android:height="35dp"></EditText>
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="Address"></TextView>
     <EditText
         android:id="@+id/staff_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:height="35dp"></EditText>
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="Designation"></TextView>
     <EditText
         android:id="@+id/staff_designation"
         android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
         android:layout_height="wrap_content"
         android:height="35dp"></EditText>
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:inputType="phone"
         android:text="Phone Number"></TextView>
     <EditText
         android:id="@+id/staff_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:height="35dp"></EditText>
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="Subject"></TextView>
     <EditText
         android:id="@+id/staff_sbject"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:height="35dp"></EditText>
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="Class"></TextView>
     <EditText
         android:id="@+id/staff_std"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:height="35dp"></EditText>
     <Button
         android:id="@+id/staff_btn_register"
