@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="379dp"
+        android:layout_height="499dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/students"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/artist_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tabHandler"
+            android:text="Staff Register" />
+
+        <Button
+            android:id="@+id/album_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tabHandler"
+            android:text="View Details" />
+
+        <Button
+            android:id="@+id/song_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tabHandler"
+            android:text="Get Report" />
+
+        <Button
+            android:id="@+id/tab4_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tabHandler"
+            android:text="View Attendence" />
+
+        <Button
+            android:id="@+id/tab5_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tabHandler"
+            android:text="log out" />
+
+  <!--      <Button
+            android:id="@+id/tab6_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tabHandler"
+            android:text="Tab6" />
+            <Button
+                android:id="@+id/tab7_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="tabHandler"
+                android:text="Tab7" />
+
+            <Button
+                android:id="@+id/tab8_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="tabHandler"
+                android:text="Tab8" />
+
+            <Button
+                android:id="@+id/tab9_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="tabHandler"
+                android:text="Tab9" />
+
+
+            <Button
+                android:id="@+id/tab10_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="tabHandler"
+                android:text="Tab10" />-->
+        </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.7" />
+    </LinearLayout>
+
+</TabHost>
+
+
+
